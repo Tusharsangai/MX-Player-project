@@ -1,0 +1,8 @@
+
+<suite name = "Sample test Suite">
+   <test name = "Sample test">
+      <classes>
+         <class name = "com.training.sanity.tests.MXvdesiTests" />
+      </classes>
+   </test>
+</suite>

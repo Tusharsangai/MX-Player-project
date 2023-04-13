@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.training.sanity.tests.MXvdesiTests">
+        <methods>
+          <include name="VDesiPlayButton"/>
+          <include name="VDesiMoreInfoButton"/>
+          <include name="MXVdesibtnTest"/>
+          <include name="VDesiMuteUnmuteButton"/>
+          <include name="VDesiCarousalNextButton"/>
+          <include name="VDesiCarousalPreviousButton"/>
+          <include name="VDesiAddTolistButton"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.MXvdesiTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
